@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.container {
+ margin: 10px auto;
+}
+/* Samll Media */
+
+@media (min-width:768px) {
+    .container {
+      width: 750px;
+    }
+}
+
+/* Medium Media*/
+@media (min-width: 992px) {
+  .container {
+    width: 980px;
+  }
+}
+/* larger Media*/
+@media (min-width:1200px) {
+  .container {
+    width: 1187px;
+  }
+}

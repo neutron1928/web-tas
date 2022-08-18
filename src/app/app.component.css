@@ -1,0 +1,60 @@
+.container {
+
+}
+.add-form{
+  margin-bottom: 40px;
+}
+
+.container {
+  margin: 10px auto;
+}
+
+.container {
+    margin: 0px auto;
+}
+
+/* Small Screens */
+@media (min-width: 768px) {
+    .container {
+        width: 740px;
+    }
+}
+
+/* Medium Screens */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large Screens */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* ~ Wroking */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container .ani-img img {
+    max-width: 300px;
+    max-height: 300px;
+    position: relative;
+    animation: up-down 10s infinite;
+}
+
+@keyframes up-down {
+
+    0%,
+    100% {
+        top: 0px;
+    }
+
+    50% {
+        top: -50px;
+    }
+}
